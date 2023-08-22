@@ -4,6 +4,10 @@ body{
     color: #111;
 }
 
+body,ul,p,h1,h2,h3,h4,blockquote{
+    margin: 0px;
+}
+
 ul{
     padding: 0px;
 }
@@ -22,6 +26,6 @@ img{
     display: block;
 }
 
-body, h1, p, ul{
-    margin: 0px;
+img[src$=".jpg"]{
+    border-radius: 4px;
 }
